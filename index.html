@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="input-fields">
+          <h1 style="text-align: center;">Resume Generator</h1>
+          <input type="text" name="name" placeholder="name" />
+          <input type="text" name="title" placeholder="Title eg web developer" />
+          <textarea name="workexp" placeholder="work experience"></textarea>
+          <textarea name="academics" placeholder="academic details"></textarea>
+          <input name="objective" placeholder="objective" />
+          <textarea name="skills" placeholder="skills" ></textarea>
+          <textarea name="projects" placeholder="projects" ></textarea>
+          <textarea name="achievements" placeholder="achievements" ></textarea>
+          <textarea name="contact" placeholder="contact" ></textarea>
+    </form>
+     <!-- resume preview -->
+    <div class="output">
+   
+    </div>  
+    <!-- button for toggle   -->
+   <div class="btn">
+        <button onclick="toggle()">Preview or edit</button>
+   </div>
+   <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
